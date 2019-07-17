@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "jsqr": "^1.2.0",
-    "stream-display": "file:../stream-display"
+    "stream-display": "0.0.2"
   },
   "devDependencies": {
     "rollup": "^1.17.0",

@@ -1,5 +1,5 @@
 import StreamDisplay from 'stream-display';
-import jsQR from 'jsQR';
+import jsQR from 'jsqr';
 
 const resultValue = document.querySelector('.result') as HTMLDivElement;
 
