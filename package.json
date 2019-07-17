@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "npm run build:esm && npm run build:iife && cp ./src/index.html ./build/index.html",
+    "prebuild": "rimraf build",
+    "build": "npm run build:esm && npm run build:iife && npm run build:copy_index && npm run build:postclean",
     "build:esm": "tsc",
     "build:iife": "rollup -c",
+    "build:copy_index": "cp ./src/index.html ./build/index.html",
+    "build:postclean": "rimraf build/esm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
