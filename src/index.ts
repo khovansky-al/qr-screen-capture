@@ -39,7 +39,7 @@ function stopCapture() {
   capture.stopCapture();
 }
 
-const scanVideoStream = (imageData: ImageData) =>{
+const scanVideoStream = (imageData: ImageData) => {
   const code = jsQR(imageData.data, imageData.width, imageData.height);
 
   if (code) {
