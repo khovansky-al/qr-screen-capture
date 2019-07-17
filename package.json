@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build:esm && npm run build:iife",
+    "build": "npm run build:esm && npm run build:iife && cp ./src/index.html ./build/index.html",
     "build:esm": "tsc",
     "build:iife": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
