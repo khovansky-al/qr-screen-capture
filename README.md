@@ -4,7 +4,7 @@ This is a demo of recognizing QR codes in-browser using the Screen Capture API, 
 
 It is based on [stream-display](https://github.com/khovansky-al/stream-display) and [jsQR](https://github.com/cozmo/jsQR) libraries. It should work in **Chrome**, **Firefox**, **Edge Mobile** and **Opera for Android**.
 
-Live demo can be found [here]()
+Live demo can be found [here](https://khovansky.me/demos/qr-live-scan/)
 
 ## How to use
 
