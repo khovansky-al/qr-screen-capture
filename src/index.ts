@@ -52,9 +52,10 @@ const scanVideoStream = (imageData: ImageData) =>{
 
 function setResult(result?: string) {
   if (typeof result !== 'string') {
-    resultValue.innerText = '';
+    resultValue.style.display = 'none';
     return;
   }
 
-  resultValue.innerText = `Result: ${result}`;
+  resultValue.style.display = 'block';
+  resultValue.innerText = `${result}`;
 }
