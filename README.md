@@ -8,7 +8,10 @@ Live demo can be found [here](https://khovansky.me/demos/live-qr/)
 
 ## How to use
 
-Prepare a website / image / something on your display that has a QR code. Press "Start scanning" and choose where to stream from. Bring the QR code into visibility and navigate back to the tab with the demo. Result should drop into the corresponding area on the page.
+- Prepare a website / image / something on your display that has a QR code
+- Press "Start scanning" and choose where to stream from
+- Bring the QR code into visibility and navigate back to the tab with the demo
+- Result should drop into the corresponding area on the page
 
 ## How to launch locally
 
