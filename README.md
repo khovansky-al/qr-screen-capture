@@ -1,6 +1,6 @@
 # QR Screen Capture
 
-This is a demo of recognizing QR codes in-browser using the Screen Capture API, namely `getDeviceMedia`. 
+This is a demo of recognizing QR codes in-browser using the Screen Capture API, namely `getDisplayMedia`. 
 
 It is based on [stream-display](https://github.com/khovansky-al/stream-display) and [jsQR](https://github.com/cozmo/jsQR) libraries. It should work in **Chrome**, **Firefox**, **Edge Mobile** and **Opera for Android**.
 
