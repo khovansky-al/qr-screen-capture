@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "jsqr": "^1.2.0",
-    "stream-display": "0.0.3"
+    "stream-display": "^1.0.0"
   },
   "devDependencies": {
     "rimraf": "^2.6.3",
